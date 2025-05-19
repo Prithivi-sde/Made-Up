@@ -74,7 +74,7 @@ export default function HomePage() {
                     alt="Model 4" 
                     style={{ width: "199%", height: "100%", objectFit: "fill" }} 
                   />
-                  <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
+                  <div className="position-absolute top-50 start-100 w-100 translate-middle text-center text-white">
                     <p className="bg-white text-dark d-inline-block px-3 py-1">
                       <span className="text-danger fw-bold">Wrinkle-free</span> t-shirts
                     </p>
@@ -89,7 +89,7 @@ export default function HomePage() {
                     alt="Model 5" 
                     style={{ width: "199%", height: "100%", objectFit: "fill" }} 
                   />
-                  <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
+                  <div className="position-absolute top-50 start-100 w-100 translate-middle text-center text-white">
                     <p className="bg-white text-dark d-inline-block px-3 py-1">
                       <span className="text-danger fw-bold">Stain-free</span> denim shirts
                     </p>
@@ -245,7 +245,7 @@ export default function HomePage() {
             <p className="mb-4">Sign up for emails and receive early access to new arrivals.</p>
             <form className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 flex-wrap">
               <input type="email" placeholder="Enter your email" className="form-control flex-grow-1" />
-              <button className="btn btn-danger px-4 flex-grow-1">Subscribe</button>
+              <button className="btn btn-danger px-4 w-100 flex-grow-1">Subscribe</button>
             </form>
           </div>
         </div>

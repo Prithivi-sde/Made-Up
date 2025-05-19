@@ -46,7 +46,7 @@ export const Header = () => {
           <Link className="nav-link text-dark" href="#"><Search /></Link>
           <Link className="nav-link text-dark" href="#"><ShoppingCard /></Link>
           <Link className="nav-link text-dark" href="#"><Heart /></Link>
-          <Link className="nav-link text-dark" href="/Home/Profile"><Profile /></Link>
+          <Link className="nav-link text-dark" href="/Home/profile"><Profile /></Link>
         </div>
       </nav>
 
@@ -69,7 +69,7 @@ export const Header = () => {
               <li key={item} className="mb-5">
                 <Link
                   className={`text-decoration-none fw-medium ${item === 'My Profile' ? 'text-danger' : 'text-dark'}`}
-                  href={item === 'My Profile' ? '/Home/Profile' : '#'}
+                  href={item === 'My Profile' ? '/Home/profile' : '#'}
                   onClick={() => setShowSheet(false)}
                 >
                   {item}
